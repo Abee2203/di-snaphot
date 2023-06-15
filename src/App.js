@@ -15,6 +15,7 @@ var tag_items = [
 ]
 
 function App() {
+  
   return (
     <div>
 
@@ -22,8 +23,6 @@ function App() {
 
       <input type='text' placeholder='Search...'/>
       <div>
-        {/* <Tags title='Mountain'/>
-        <Tags title='Beach'/> */}
         <Tags items={tag_items}/>
       </div>
       <div>
