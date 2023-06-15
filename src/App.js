@@ -3,6 +3,17 @@ import './App.css';
 import Header from './components/Header'
 import Tags from './components/tags';
 
+var tag_items = [
+  {
+    key : 'mountain',
+    name: 'Mountain'
+  },
+  {
+    key : 'beaches',
+    name: 'Beaches'
+  }
+]
+
 function App() {
   return (
     <div>
@@ -13,7 +24,7 @@ function App() {
       <div>
         {/* <Tags title='Mountain'/>
         <Tags title='Beach'/> */}
-        <Tags />
+        <Tags items={tag_items}/>
       </div>
       <div>
         <h1>Food pictures</h1>
