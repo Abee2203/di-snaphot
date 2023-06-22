@@ -14,8 +14,13 @@ var tag_items = [
   {
     key : 'beaches',
     name: 'Beaches'
-  }
+  },
+  {
+      key : 'forest',
+     name: 'forest'
+}
 ]
+
 
 function App() {
 
